@@ -11,11 +11,11 @@ const config: Config = {
   url: 'https://nasa-jpl.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/tos2ca-documentation',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'NASA-JPL', // Usually your GitHub org/user name.
+  organizationName: 'nasa-jpl', // Usually your GitHub org/user name.
   projectName: 'tos2ca-documentation', // Usually your repo name.
   trailingSlash: false,
 
