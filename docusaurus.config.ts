@@ -101,6 +101,10 @@ const config: Config = {
               label: 'Governance',
               href: '/governance',
             },
+            {
+              label: 'Notebook Examples',
+              href: '/notebooks',
+            },
           ],
         },
         {
@@ -109,6 +113,9 @@ const config: Config = {
             {
               label: 'GitHub',
               href: 'https://github.com/search?q=org%3Anasa-jpl+tos2ca&type=repositories',
+            },            {
+              label: 'Citation Information',
+              href: 'https://zenodo.org/records/13375606',
             },
           ],
         },

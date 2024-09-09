@@ -14,8 +14,8 @@ This python library is responsible for:
 - Using the masks produced by ForTraCC to retrieve curated data of interest to the user
 
 ## Requirements
-- Access to the TOS2CA [data dictionaries](https://github.jpl.nasa.gov/TOS2CA/data-dictionaries)
-- [ForTraCC](https://github.jpl.nasa.gov/TOS2CA/fortracc-module)
+- Access to the TOS2CA [data dictionaries](https://github.com/nasa-jpl/tos2ca-data-dictionaries)
+- [ForTraCC](https://github.com/nasa-jpl/tos2ca-fortracc-module)
 - See the requirements.txt file for required Python libraries
 
 ## Resources
