@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/tos2ca-documentation/governance",
+  "source": "@site/src/pages/governance.md",
+  "title": "Governance",
+  "description": "This governance model aims to create an open source community that encourages transparency, contributions, and collaboration, but maintains sound technical and quality standards.",
+  "frontMatter": {
+    "title": "Governance"
+  },
+  "unlisted": false
+}

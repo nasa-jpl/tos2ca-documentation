@@ -1,0 +1,63 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/tos2ca-documentation/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/tos2ca-documentation/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "anomaly-detection",
+              "path": "/tos2ca-documentation/docs/anomaly-detection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data_access_server",
+              "path": "/tos2ca-documentation/docs/data_access_server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "data-dictionaries",
+              "path": "/tos2ca-documentation/docs/data-dictionaries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "fortracc-module",
+              "path": "/tos2ca-documentation/docs/fortracc-module",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/tos2ca-documentation/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tos2ca-documentation",
+              "path": "/tos2ca-documentation/docs/tos2ca-documentation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "user-interface",
+              "path": "/tos2ca-documentation/docs/user-interface",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/tos2ca-documentation/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
