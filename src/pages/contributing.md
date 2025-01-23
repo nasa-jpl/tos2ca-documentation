@@ -19,7 +19,7 @@ Our project has our licensing terms, including rules governing redistribution, d
 
 ### Code of Conduct
 
-Our Code of Conduct helps facilitate a positive interaction environment for everyone involved with the team, and provides guidance on what to do if you experience problematic behavior. Read more in our [CODE_OF_CONDUCT.md](/code_of_conduct), and make sure you agree to its terms. 
+Our Code of Conduct helps facilitate a positive interaction environment for everyone involved with the team, and provides guidance on what to do if you believe somebody has violated the Code of Conduct standards. Read more in our [CODE_OF_CONDUCT.md](/code_of_conduct), and make sure you agree to its terms. 
 
 ### Developer Environment
 
@@ -227,12 +227,6 @@ For directions on contributing to our source-controlled documentation:
 2. Have your [development environment](#developer-environment) set up properly.
 3. Go through our [development process](#our-development-process), including proposing changes to our project.
 
-#### Writing Style
-
-To ensure documentation is readable and consistent by newcomers and experts alike, here are some suggestions on writing style for English:
-- Use gender neutral pronouns (they/their/them) instead of he/she/his/her 
-- Avoid qualifiers that minimize the difficulty of a task at hand, e.g. avoid words like “easily”, “simply”, “just”, “merely”, “straightforward”, etc. Readers' expertise may not match your own, and qualifying complexity may deter some readers if the task does not match their level of experience. That being said, if a particular task is difficult or complex, do mention that. 
-
 #### Common Wording 
 
 Below are some commonly used words you'll want to leverage in your documentation contributions:
@@ -264,7 +258,7 @@ Here are just a few ways you can help answer questions for our project:
 - Answer open questions mentioned in the Issue page of each TOS2CA GitHub repository
 
 When answering questions, keep the following in mind:
-- Be polite and friendly. See our [Code of Conduct](code_of_conduct) recommendations as you interact with others in the team.
+- Keep our [Code of Conduct](code_of_conduct) recommendations in mind as you interact with others in the team.
 - Repeat the specific question you are answering, followed by your suggestion.
 - If suggesting code, repeat the line of code that needs to be altered, followed by your alteration
 - Include any post-steps or checks to verify your answer can be reproduced 

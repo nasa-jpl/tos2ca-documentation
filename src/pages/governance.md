@@ -4,9 +4,9 @@ title: Governance
 
 # TOS2CA Project Governance
 
-This governance model aims to create an open source community that encourages transparency, contributions, and collaboration, but maintains sound technical and quality standards. Our goal is to build a community comprised of members across the TOS2CA project and beyond, including from private organizations, universities, government organizations, and international organizations. 
+This governance model aims to create an open source community that encourages transparency, contributions, and collaboration, but maintains sound technical and quality standards.
 
-The project follows a fairly liberal contribution model where people and/or organizations who do the most work will have the most influence on project direction. Roles determine decision making influence, and governing committees (e.g. technical steering, project steering) are set up to ensure the project's direction is in-line with requirements / goals while supporting flexibility for future growth and membership. Technical decision making will primarily be made through a "[consensus-seeking](https://en.wikipedia.org/wiki/Consensus-seeking_decision-making)" approach within the respective governing committees. 
+The project follows a contribution model where people and/or organizations who do the most work will have the most influence on project direction. Roles determine decision making influence, and governing committees (e.g. technical steering, project steering) are set up to ensure the project's direction is in-line with requirements / goals while supporting flexibility for future growth and membership. Technical decision making will primarily be made through a "[consensus-seeking](https://en.wikipedia.org/wiki/Consensus-seeking_decision-making)" approach within the respective governing committees. 
 
 ## Roles
 
