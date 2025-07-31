@@ -35,7 +35,7 @@ The system is designed to be run as part of a LAMP configure and is written in P
 
 - FastAPI for Python
 - Access to the TOS2CA MySQL database
-- See the [requirements.txt](requirements.txt) file for additional dependencies
+- See the requirements.txt file for additional dependencies
 
 ## Website Pages
 

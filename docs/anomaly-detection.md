@@ -19,7 +19,7 @@ This python library is responsible for:
 
 - Access to the TOS2CA [data dictionaries](https://github.com/nasa-jpl/tos2ca-data-dictionaries)
 - [ForTraCC](https://github.com/nasa-jpl/tos2ca-fortracc-module)
-- See the [requirements.txt](requirements.txt) file for required Python libraries
+- See the requirements.txt file for required Python libraries
 - Access to AWS services
 
 
@@ -48,7 +48,7 @@ The user can continue on to data curation or exit the system here.
 
 Running the library in an end-to-end fashion requires the following steps:
 01. Read the job information from the database that include information about what PhDef to run against, along with the dataset and variable information.
-02. Once you have the job information, choose the appropriate curator for the dataset/variable in question and mark the job as ``'running'`` in the database.  Initially, jobs will be in ``'pending'`` status in the database.
+02. Once you have the job informatio          n, choose the appropriate curator for the dataset/variable in question and mark the job as ``'running'`` in the database.  Initially, jobs will be in ``'pending'`` status in the database.
 03. Run the curator, which will output a netCDF-4 file with the data for each anomaly at each time step.  It will also automatically get data for one timestamp before the first timestamp and one timestamp after the last timestamp, and curate data for those extra timestamps using data from the masks at the first and last timestamps, respectively -- this is to give more data on initial and final environmental conditions.  Note that incronguities may exist beween the grids and timesteps between the data used in PhDef and the requested curator data.  See the metadata in the output curated data file for additional information on this.
 04. Upload the curated data file and JSON hierarchy file to S3.
 05. Run the curated file through the interpolater.  This will get the curated data on the same temporal and spatial resolution as the original mask data.  This way the user can compare them more easily.  This will also generate statistics in the metadata of the interpolated file.  The interpolated fill will also be stored in S3.
