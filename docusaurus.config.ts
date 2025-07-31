@@ -11,11 +11,11 @@ const config: Config = {
   url: 'https://nasa-jpl.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/tos2ca-documentation',
+  baseUrl: '/tos2ca',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'nasa-jpl', // Usually your GitHub org/user name.
+  organizationName: 'NASA-JPL', // Usually your GitHub org/user name.
   projectName: 'tos2ca-documentation', // Usually your repo name.
   trailingSlash: false,
 
@@ -58,6 +58,7 @@ const config: Config = {
         src: 'img/nasa.png',
       },
       items: [
+        {to: '/repositories', label: 'Repos', position: 'left'},
         {to: '/docs/intro', label: 'Docs', position: 'left'},
       	{to: '/about', label: 'About', position: 'left'},
         {to: '/code_of_conduct', label: 'Conduct', position: 'left'},
@@ -76,8 +77,11 @@ const config: Config = {
         {
           title: 'Resources',
           items: [
+            { label: 'Repositories',
+              to: '/repositories'
+            },
             {
-              label: 'Docs',
+              label: 'Documentation',
               to: '/docs/intro',
             },            
             {
@@ -113,9 +117,14 @@ const config: Config = {
             {
               label: 'GitHub',
               href: 'https://github.com/search?q=org%3Anasa-jpl+tos2ca&type=repositories',
-            },            {
+            },
+            {
               label: 'Citation Information',
-              href: 'https://zenodo.org/records/13375606',
+              href: '/citation',
+            },
+            {
+              label: 'Zenodo Archive',
+              href: 'https://zenodo.org/search?q=TOS2CA&f=resource_type%3Asoftware&l=list&p=1&s=10&sort=bestmatch'
             },
           ],
         },

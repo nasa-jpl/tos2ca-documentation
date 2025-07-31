@@ -1,0 +1,110 @@
+cff-version: 1.2.0
+title: >-
+  Thematic Observation Search, Segmentation, Collation and
+  Analysis (TOS2CA)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ziad
+    family-names: Haddad
+    email: zsh@jpl.nasa.gov
+    affiliation: Jet Propulsion Laboratory
+    orcid: 'https://orcid.org/0000-0002-2608-6274'
+  - given-names: Jason
+    family-names: Eriksen
+    affiliation: Columbia University
+  - given-names: Ryan
+    family-names: Fuller
+    email: Ryan.A.Fuller@jpl.nasa.gov
+    affiliation: Jet Propulsion Laboratory
+    orcid: 'https://orcid.org/0000-0001-5785-9949'
+  - given-names: Alexandre
+    family-names: Guillaume
+    email: Alexandre.Guillaume@jpl.nasa.gov
+    affiliation: Jet Propulsion Laboratory
+    orcid: 'https://orcid.org/0000-0002-4322-5862'
+  - given-names: Svetla
+    family-names: Hristova-Veleva
+    email: Svetla.Hristova@jpl.nasa.gov
+    affiliation: Jet Propulsion Laboratory
+    orcid: 'https://orcid.org/0000-0003-2048-5167'
+  - given-names: Brian
+    family-names: Knosp
+    email: Brian.Knosp@jpl.nasa.gov
+    affiliation: Jet Propulsion Laboratory
+    orcid: 'https://orcid.org/0000-0002-2266-8883'
+  - given-names: Phillip
+    family-names: Le
+    affiliation: Columbia University
+  - given-names: Flynn
+    family-names: Platt
+    email: Flynn.Platt@jpl.nasa.gov
+    affiliation: Jet Propulsion Laboratory
+    orcid: 'https://orcid.org/0009-0000-9246-2576'
+  - given-names: Federica
+    family-names: Polverari
+    email: federica.polverari@jpl.nasa.gov
+    affiliation: Jet Propulsion Laboratory
+    orcid: 'https://orcid.org/0000-0002-2038-4983'
+  - given-names: Randy
+    family-names: Sawaya
+    email: randy.sawaya@primer.ai
+    affiliation: Primer
+    orcid: 'https://orcid.org/0000-0003-1771-634X'
+  - given-names: Quoc
+    family-names: Vu
+    email: qvu@jpl.nasa.gov
+    affiliation: Jet Propulsion Laboratory
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.16053702
+    description: >-
+      Link to an archived copy of the TOS2CA v2 software on
+      Zenodo
+repository-code: 'https://github.com/nasa-jpl/tos2ca-documentation'
+url: 'https://nasa-jpl.github.io/tos2ca-documentation/'
+abstract: >-
+  Thematic Observation Search, Segmentation, Collation and
+  Analysis (TOS2CA) is a user-driven, data-centric system
+  that identifies, collates, statistically characterizes,
+  and serves Earth science data relevant to a given
+  phenomenon. It facilitates the collation and analysis of
+  data from disparate sources and makes it possible for
+  scientists to establish science traceability requirements,
+  quantify detection thresholds, define uncertainty
+  requirements, and establish data sufficiency to formulate
+  truly innovative missions and research investigations.
+license: Apache-2.0
+version: v2.0
+date-released: '2025-08-01'
+preferred-citation:
+  authors:
+    - family-names: Haddad
+      given-names: Ziad
+    - family-names: Eriksen
+      given-names: Jason
+    - family-names: Fuller
+      given-names: Ryan
+    - family-names: Guillaume
+      given-names: Alexandre
+    - family-names: Hristova-Veleva
+      given-names: Svetla
+    - family-names: Knosp
+      given-names: Brian
+    - family-names: Le
+      given-names: Phillip
+    - family-names: Platt
+      given-names: Flynn
+    - family-names: Polverarai
+      given-names: Federica
+    - family-names: Sawaya
+      given-names: Randy
+    - family-names: Vu
+      given-names: Quoc
+  title: Thematic Observation Search, Segmentation, Collation and Analysis (TOS2CA)
+  type: software
+  year: 2025
+  version: v2.0
+  doi: 10.5281/zenodo.16053702
