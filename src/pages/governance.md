@@ -28,7 +28,7 @@ If you are planning on making a substantial contribution to the project or feel 
 
 ### Product Managers
 
-Overall manager of the project with final authority over all key decisions. Currently these are the orginial TOS2CA developers.  They will serve as Product Manager role through July 2025 and be the final authortiy on decisions.  After that time, roles for this may be reassessed.
+Overall manager of the project with final authority over all key decisions. Currently these are the orginial TOS2CA developers.  They will serve as Product Manager role through October 2025 and be the final authortiy on decisions.  After that time, roles for this may be reassessed.
  
 ## Decision Making Process
 
