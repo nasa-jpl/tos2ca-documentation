@@ -7,7 +7,8 @@ title: Contributing
 Thanks for taking the time to consider contributing! We very much appreciate your time and effort. This document outlines the many ways you can contribute to our project, and provides detailed guidance on best practices. We look forward to your help!
 
 ## Code Maintenance Expectations
-This code was developed as part of the NASA AIST TOS2CA project.  The original developers will actively main this code through the end of October 2025.
+
+This code was developed as part of the NASA AIST TOS2CA project.  The original developers will actively main this code through the end of May 2026.
 
 ## Prerequisites
 
@@ -24,6 +25,7 @@ Our Code of Conduct helps facilitate a positive interaction environment for ever
 ### Developer Environment
 
 At a minimum however to submit patches (if using Git), you'll want to ensure you have:
+
 1. An account on the Version Control System our project uses (i.e. GitHub).
 2. The Version Control System client (i.e. Git) installed on your local machine.
 3. The ability to edit, build, and test our project on your local machine. Again, see our [documentation](/docs/intro) or detailed developer guide for more details about each repository.
@@ -33,6 +35,7 @@ At a minimum however to submit patches (if using Git), you'll want to ensure you
 Before contributing changes to our project, it's a great idea to be familiar with our communication channels and to socialize your potential contributions to get feedback early. This will help give you context for your contributions, no matter their form.
 
 Our communication channels are:
+
 - Issue pages in the individual TOS2CA GitHub repos  - a regularly monitored area to report issues with our software or propose changes
 - Discussion boards in the individual TOS2CA GitHub repos - a permanently archived place to hold conversations related to our project, and to propose as well as show+tell topics to the contributor team. This resource can be searched for old discussions.
 
@@ -62,6 +65,7 @@ Make sure people are aware you're working on a patch! Check out the Issue pages 
 #### Choose the Right Branch to Fork
 
 Our project typically has the following branches available, make sure to fork either the default branch or a branch someone else already tagged with a particular issue ticket you're working with.
+
 - `main`
 - `dev`
 
@@ -92,6 +96,7 @@ Please make sure to provide a meaningful text description to your pull requests,
 ### Reviewing your Pull Request
 
 Reviewing pull-requests, or any kinds of proposed patch changes, is an art. That being said, we follow the following best practices:
+
 - **Intent** - is the purpose of your pull-request clearly stated?
 - **Solution** - is your pull-request doing what you want it to?
 - **Correctness** - is your pull-request doing what you want it to *correctly*?
@@ -116,6 +121,7 @@ See our list of issues in the Issues area of the individual TOS2CA GitHub repos.
 Often we receive duplicate issues that can confuse project members on *which* issue ticket to hold conversations upon.
 
 Here's how you can help:
+
 1. Scan the list of *open* issue tickets for duplicate titles, or internal wording 
 2. If you find duplicates, copy / paste the below message on the conversation thread of the issue ticket *that has less participants* involved
 
@@ -140,9 +146,11 @@ I've noticed several other issues that are of the same category as this issue. S
 #### Submitting Bug Issues
 
 Resolving bugs is a priority for our project. We welcome bug reports. However, please make sure to do the following prior to submitting a bug report:
+
 - **Check for duplicates** - there may be a bug report already describing your issue, so check the Issue pages for each individual TOS2CA GitHub repos.
 
 Here's some guidance on submitting a bug issue:
+
 1. Navigate to the Issue page for each individual TOS2CA GitHub repo and file a new issue
 2. Select a bug template (if available) for your issue
    1. Fill out the template fields to the best of your ability, including output snippets or screenshots where applicable
@@ -155,10 +163,12 @@ Here's some guidance on submitting a bug issue:
 #### Submitting New Feature Issues
 
 We welcome new feature requests to help grow our project. However, please make sure to do the following prior to submitting a new feature request:
+
 - **Check for duplicates** - there may be a new feature issue already describing your issue, so check the Issue page for each individual TOS2CA GitHub repo first
 - **Consider alternatives** - is your feature really needed? Or is there a feature within our project or with a third-party that may help you achieve what you want?
 
 Here's some guidance on submitting a new feature issue:
+
 1. Navigate to the Issue page for each individual TOS2CA GitHub repo and file a new issue
 2. Select a new feature template (if available) for your issue
    1. Fill out the template fields to the best of your ability
@@ -170,6 +180,7 @@ Security vulnerabilities should **not** be filed to the regular issue tracking s
 Report your security vulnerabilities to (see contact links): [Brian Knosp](https://github.com/brian-knosp)
 
 Please be sure to:
+
 * Indicate the severity of the vulnerability
 * Provide any workarounds, if you know them
 * Provide return-contact information to follow-up with you if needed
@@ -179,6 +190,7 @@ Please be sure to:
 Reviewing others' contributions is a great way to learn about best practices in both contributions as well as software. 
 
 Take a look at our pull requests in each TOS2CA repo, and try the following options for providing a review:
+
 1. Read the code / patch associated with the pull-request, and take note of any coding, bug, or documentation issues if found
 2. Try to recreate the pull-request patch on your local machine, and report if it has issues with your system in particular
 3. Scan over suggested feedback from other contributors, and provide feedback if necessary
@@ -186,30 +198,34 @@ Take a look at our pull requests in each TOS2CA repo, and try the following opti
 ### 💻  Code
 
 ⚠️ It's **highly** advised that you take a look at the individal Issues in each TOS2CA GitHub repo before considering any code contributions. Here's some guidelines:
+
 1. Check if any duplicate issues exist that cover your code contribution idea / task, and add comments to those tickets with your thoughts.
 2. If no duplicates exist, create a new issue ticket and get a conversation started before making code changes using our [communication channels](#communication-channels).
 
 Once you have a solid issue ticket in hand and are ready to work on code, you'll want to:
+
 1. Ensure you have development [prerequisites](#prerequisites) cleared.
 2. Have your [development environment](#developer-environment) set up properly.
 3. Go through our [development process](#our-development-process), including proposing changes to our project.
 
 Some guidelines for code-specific contributions:
+
 - **Do your homework** - read-up on necessary documentation, like `README.md`s, developer documentation, and pre-existing code to see the intention and context necessary to make your contribution a success. It's important to _communicate_ what you're working on through our project [communication channels](#communication-channels) and get buy-in from frequent contributors - this will help the project be more receptive to your contributions! 
 - **Ask questions** - its important to ask questions while you work on your contributions, to check-in with frequent contributors on the style and the set of expectations to make your code contribution work well with pre-existing project code. Use our [communication channels](#communication-channels)
 - **Keep positive** - code contributions, by their nature, have direct impacts on the output and functionality of the project. Keep a positive spirit as your code is reviewed, and take it in stride if core contributors take time to review, give you suggestions for your code or respectfully decline your contribution. This is all part of the process for quality open source development. 
 - **Comments** - include *useful* comments throughout your code that explain the intention of a code block, not a step-by-step analysis. See our [inline code documentation](#inline-code-documentation) section for specifics. 
-
 
 ### 📖 Documentation 
 
 Documentation is the core way our users and contributors learn about the project. We place a high value on the quality, thoroughness, and readability of our documentation. Writing or editing documentation is an excellent way to contribute to our project without performing active coding. 
 
 ⚠️ It's **highly** advised that you take a look at the Issue page of the appropriate TOS2CA GitHub repo before considering any documentation contributions. Here's some guidelines:
+
 1. Check if any duplicate issues exist that cover your documentation contribution idea / task, and add comments to those tickets with your thoughts.
 2. If no duplicates exist, create a new issue ticket and get a conversation started before making documentation changes.
 
 Some guidelines for documentation best practices (summarized from Google's [excellent documentation guide](https://google.github.io/styleguide/docguide/best_practices.html)):
+
 - **Minimum viable docs** - don't do less documentation than your users / developers need, but also don't do more
 - **Changed code = changed docs** - if your code has changed, remember to update your documentation
 - **Delete old docs** - continually clean your documentation tree, and remove outdated docs regularly
@@ -217,12 +233,14 @@ Some guidelines for documentation best practices (summarized from Google's [exce
 #### Documentation Organization
 
 The overall structure of our project source-controlled documentation is as follows, for each repository:
+
 - README.md- top-level information about how to run, build, and contribute to the project
 - CODE_OF_CONDUCT.md - best practices and guidance on how to work well with other people in the project, and suggestions on dealing with interpersonal issues
 - CONTRIBUTING.md - guidance on contributing to the project
 - GOVERNANCE.md - outlines the project roles and leadership
 
 For directions on contributing to our source-controlled documentation:
+
 1. Ensure you have development [prerequisites](#prerequisites) cleared.
 2. Have your [development environment](#developer-environment) set up properly.
 3. Go through our [development process](#our-development-process), including proposing changes to our project.
@@ -230,6 +248,7 @@ For directions on contributing to our source-controlled documentation:
 #### Common Wording 
 
 Below are some commonly used words you'll want to leverage in your documentation contributions:
+
 - **GitHub** - one word, and capitalization of the 'G' and the 'H'
 - **TOS2CA** - is always capitalized; the '2' can be superscript if desired
 
@@ -244,6 +263,7 @@ Additionally, take a look at Google's recommendations on [inline code documentat
 Media, such as such as images, videos, sound files, etc., are an excellent way to explain documentation to a wider audience more easily. Include media in your contributions as often as possible.
 
 When including media into our version-control system, it is recommended to use formats such as:
+
 - Diagrams: [Mermaid](https://mermaid-js.github.io/mermaid/#/) format
 - Images: JPEG format
 - Videos: H264 MPEG format
@@ -254,10 +274,12 @@ When including media into our version-control system, it is recommended to use f
 Answering questions is an excellent way to learn more about our project, as well as get better known in our project community. 
 
 Here are just a few ways you can help answer questions for our project:
+
 - Answer open questions in the Discussion area of each TOS2CA GitHub repository
 - Answer open questions mentioned in the Issue page of each TOS2CA GitHub repository
 
 When answering questions, keep the following in mind:
+
 - Keep our [Code of Conduct](code_of_conduct) recommendations in mind as you interact with others in the team.
 - Repeat the specific question you are answering, followed by your suggestion.
 - If suggesting code, repeat the line of code that needs to be altered, followed by your alteration
@@ -268,6 +290,7 @@ When answering questions, keep the following in mind:
 Design files can help to guide new features and new areas of expansion for our project. We welcome these kinds of contributions.
 
 Here are just a few ways you can help provide design recommendations for our project:
+
 - Create visual mockups or diagrams to increase usability of our project applications. This can apply to user interfaces, documentation structuring, or even code architecture diagrams.
 - Conduct user research to understand user needs better. Save your findings within spreadsheets that the project team / contributors can review.
 - Create art, such as logos or icons, to support the user experience for the project
@@ -275,4 +298,5 @@ Here are just a few ways you can help provide design recommendations for our pro
 Each of the above can be contributed directly to repository code, and you should use our [development process](#our-development-process) to contribute your additions.
 
 ## Attribution
+
 This CONTRIBUTING tempalate was found in the [NASA-AMMOS/slim-starterkit](https://github.com/NASA-AMMOS/slim-starterkit) GitHub repository.

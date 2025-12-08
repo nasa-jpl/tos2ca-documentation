@@ -1,3 +1,6 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
 title: >-
   Thematic Observation Search, Segmentation, Collation and
@@ -15,6 +18,11 @@ authors:
   - given-names: Jason
     family-names: Eriksen
     affiliation: Columbia University
+  - given-names: Ines
+    family-names: Fenni
+    email: Ines.Fenni@jpl.nasa.gov
+    affiliation: Jet Propulsion Laboratory
+    orcid: 'https://orcid.org/0000-0003-2884-2798'    
   - given-names: Ryan
     family-names: Fuller
     email: Ryan.A.Fuller@jpl.nasa.gov
@@ -48,6 +56,11 @@ authors:
     email: federica.polverari@jpl.nasa.gov
     affiliation: Jet Propulsion Laboratory
     orcid: 'https://orcid.org/0000-0002-2038-4983'
+  - given-names: Sai
+    family-names: Prasanth
+    email: Sai.Prasanth@jpl.nasa.gov
+    affiliation: Jet Propulsion Laboratory
+    orcid: 'https://orcid.org/0000-0001-8792-3614'
   - given-names: Randy
     family-names: Sawaya
     email: randy.sawaya@primer.ai
@@ -59,9 +72,9 @@ authors:
     affiliation: Jet Propulsion Laboratory
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.16053702
+    value: 10.5281/zenodo.17664955
     description: >-
-      Link to an archived copy of the TOS2CA v2 software on
+      Link to an archived copy of the TOS2CA v2.1 software on
       Zenodo
 repository-code: 'https://github.com/nasa-jpl/tos2ca-documentation'
 url: 'https://nasa-jpl.github.io/tos2ca-documentation/'
@@ -78,13 +91,15 @@ abstract: >-
   truly innovative missions and research investigations.
 license: Apache-2.0
 version: v2.0
-date-released: '2025-08-01'
+date-released: '2025-12-11'
 preferred-citation:
   authors:
     - family-names: Haddad
       given-names: Ziad
     - family-names: Eriksen
       given-names: Jason
+    - family-names: Fenni
+      given-names: Ines      
     - family-names: Fuller
       given-names: Ryan
     - family-names: Guillaume
@@ -99,6 +114,8 @@ preferred-citation:
       given-names: Flynn
     - family-names: Polverarai
       given-names: Federica
+    - family-names: Prasanth
+      given-names: Sai
     - family-names: Sawaya
       given-names: Randy
     - family-names: Vu
@@ -106,5 +123,5 @@ preferred-citation:
   title: Thematic Observation Search, Segmentation, Collation and Analysis (TOS2CA)
   type: software
   year: 2025
-  version: v2.0
-  doi: 10.5281/zenodo.16053702
+  version: v2.1
+  doi: 10.5281/zenodo.17664955

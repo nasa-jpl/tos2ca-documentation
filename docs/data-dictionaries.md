@@ -2,7 +2,7 @@
 
 Data dictionary files for the NASA AIST TOS2CA project. 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16053702.svg)](https://doi.org/10.5281/zenodo.16053702)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17664955.svg)](https://doi.org/10.5281/zenodo.17664955)
 
 [![Language](https://img.shields.io/badge/json-2022.12-blue)](#) 
 

@@ -4,7 +4,6 @@ title: Code of Conduct
 
 # Code of Conduct
 
-
 ## Our Standards
 
 Examples of unacceptable behavior include:

@@ -7,9 +7,10 @@ title: Repositories
 TOS2CA repositories can be found through the [NASA-JPL organization on GitHub.com](https://github.com/nasa-jpl):
 
 * [Anomaly Detection](https://github.com/nasa-jpl/tos2ca-anomaly-detection)
-* [ForTraCC Module](https://github.com/nasa-jpl/tos2ca-data-dictionaries)
+* [ForTraCC Module](https://github.com/nasa-jpl/tos2ca-fortracc-module)
+* [Aux-GeoIR](https://github.com/nasa-jpl/tos2ca-aux-geoir)
 * [Data Dictionaries](https://github.com/nasa-jpl/tos2ca-data-dictionaries)
-* [User Interface](https://github.com/nasa-jpl/tos2ca-documentation)
+* [User Interface](https://github.com/nasa-jpl/tos2ca-user-interface)
 * [Data Access Server](https://github.com/nasa-jpl/tos2ca-data-access-server)
 * [Documentation](https://github.com/nasa-jpl/tos2ca-documentation)
 * [Containerization](https://github.com/nasa-jpl/tos2ca-containerization)

@@ -1,6 +1,6 @@
 # ForTraCC Module
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16053702.svg)](https://doi.org/10.5281/zenodo.16053702)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17664955.svg)](https://doi.org/10.5281/zenodo.17664955)
 
 [![Language](https://img.shields.io/badge/python-3.9-blue)](#)
 
@@ -182,7 +182,7 @@ class Scene:
 Let's focus on `Scene` since `GeoGrid` is extremely simple.  `Scene` uses `skimage.measure` to delineate the connected 
 compenents of the provided mask.  Once the connected components are defined, they are passed to 
 `skimage.measure.regionprops` which calculates a myriad of properties for each of the connected components(for a full
-list of the properties, see https://scikit-image.org/docs/stable/api/skimage.measure.html#skimage.measure.regionprops).  
+list of the properties, see https://scikit-image.org/docs/stable/api/skimage.measure.html#skimage.measure.regionprops.  
 These properties may come in handy later down the line, but for now, the only useful one is `area` which gives the total
 pixel count of the connected component.  
 

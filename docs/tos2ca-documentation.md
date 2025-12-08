@@ -1,6 +1,6 @@
 # Documentation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13375606.svg)](https://doi.org/10.5281/zenodo.13375606)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17664955.svg)](https://doi.org/10.5281/zenodo.17664955)
 
 The ``tos2ca-documentation`` library is part of the of the TOS2CA Project. For more information, visit the TOS2CA website at [https://nasa-jpl.github.io/tos2ca-documentation/](https://nasa-jpl.github.io/tos2ca-documentation/).
 

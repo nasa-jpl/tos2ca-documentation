@@ -28,7 +28,7 @@ If you are planning on making a substantial contribution to the project or feel 
 
 ### Product Managers
 
-Overall manager of the project with final authority over all key decisions. Currently these are the orginial TOS2CA developers.  They will serve as Product Manager role through October 2025 and be the final authortiy on decisions.  After that time, roles for this may be reassessed.
+Overall manager of the project with final authority over all key decisions. Currently these are the orginial TOS2CA developers.  They will serve as Product Manager role through May 2026 and be the final authortiy on decisions.  After that time, roles for this may be reassessed.
  
 ## Decision Making Process
 
@@ -41,4 +41,5 @@ Product Managers can nominate new members at any time. Candidates for membership
 Much of this governance model was adapted from the other notable open source projects including [node.js](https://github.com/nodejs/node/blob/main/GOVERNANCE.md), [OpenSSL](https://www.openssl.org/policies/omc-bylaws.html), [PostgresQL](https://www.postgresql.org/developer/), and [OpenMCT](https://github.com/nasa/openmct/blob/master/CONTRIBUTING.md). We would like to thank those projects for setting the foundation upon which this model was built.
 
 ## Attribution
+
 This CONTRIBUTING tempalate was found in the [NASA-AMMOS/slim-starterkit](https://github.com/NASA-AMMOS/slim-starterkit) GitHub repository.
