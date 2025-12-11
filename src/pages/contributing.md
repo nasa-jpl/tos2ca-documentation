@@ -195,6 +195,10 @@ Take a look at our pull requests in each TOS2CA repo, and try the following opti
 2. Try to recreate the pull-request patch on your local machine, and report if it has issues with your system in particular
 3. Scan over suggested feedback from other contributors, and provide feedback if necessary
 
+#### Versioning
+
+TOS2CA uses [symantic versioning](https://semver.org/) scheme for tagged releases.  Note that all TOS2CA repositories need to be included in a release, as the TOS2CA system is versioned as a whole rather than as individual repositories.
+
 ### 💻  Code
 
 ⚠️ It's **highly** advised that you take a look at the individal Issues in each TOS2CA GitHub repo before considering any code contributions. Here's some guidelines:
