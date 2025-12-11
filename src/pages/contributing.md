@@ -73,6 +73,8 @@ Our project typically has the following branches available, make sure to fork ei
 
 Within your local development environment, this is the stage at which you'll propose your changes, and commit those changes back to version control. See the [document guides] (docs/intro) for more specifics on what you'll need as prerequisites to setup your local development environment.
 
+TOS2CA uses [symantic versioning](https://semver.org/) scheme for tagged releases.  Note that all TOS2CA repositories need to be included in a release, as the TOS2CA system is versioned as a whole rather than as individual repositories.
+
 #### Commit Messages
 
 Commit messages to version control should reference a ticket in their title / summary line:
@@ -194,10 +196,6 @@ Take a look at our pull requests in each TOS2CA repo, and try the following opti
 1. Read the code / patch associated with the pull-request, and take note of any coding, bug, or documentation issues if found
 2. Try to recreate the pull-request patch on your local machine, and report if it has issues with your system in particular
 3. Scan over suggested feedback from other contributors, and provide feedback if necessary
-
-#### Versioning
-
-TOS2CA uses [symantic versioning](https://semver.org/) scheme for tagged releases.  Note that all TOS2CA repositories need to be included in a release, as the TOS2CA system is versioned as a whole rather than as individual repositories.
 
 ### 💻  Code
 
