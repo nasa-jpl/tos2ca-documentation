@@ -7,6 +7,10 @@ const config: Config = {
   tagline: 'Thematic Observation Search, Segmentation, Collation and Analysis',
   favicon: 'img/nasa.png',
 
+  markdown: {
+    mermaid: true,
+  },
+
   // Set the production url of your site here
   url: 'https://nasa-jpl.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -47,6 +51,8 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
+  themes: ['@docusaurus/theme-mermaid'],
 
   themeConfig: {
     // Replace with your project's social card
