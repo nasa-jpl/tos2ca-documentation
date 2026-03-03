@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkusers_bwknosp_code_tos_2_ca_docs=globalThis.webpackChunkusers_bwknosp_code_tos_2_ca_docs||[]).push([[225],{225:(s,c,e)=>{e.d(c,{createArchitectureServices:()=>_.S});var _=e(7713);e(808)}}]);
