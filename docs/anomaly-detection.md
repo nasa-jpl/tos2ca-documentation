@@ -29,6 +29,7 @@ Installing this way will install all Python dependencies, includucing the TOS2CA
 
 ## Requirements
 
+- Will need an [NASA Earthdata login](https://urs.earthdata.nasa.gov/) to use any tools DAAC tools/applications (and have credentials in a `.netrc` file -- see `templates/.netrc` template in this repo)
 - Access to the TOS2CA [data dictionaries](https://github.com/nasa-jpl/tos2ca-data-dictionaries) (stored locally in `/data/code/data-dictionaries/`)
 - [ForTraCC](https://github.com/nasa-jpl/tos2ca-fortracc-module)
 - [AUX-GeoIR](https://github.com/nasa-jpl/tos2ca-aux-geoir)
@@ -68,6 +69,16 @@ Running the library in an end-to-end fashion requires the following steps:
 07. Mark the job as ``'complete'`` in the database.
 08. User can make plots of individual anomalies at spcific timestamps using the interpolated file.
 The user can continue on to visualization tools, download the data, or exit the system here.
+
+## Examples
+
+Functions from this package are called in the following manner:
+
+```python
+from tos2ca.iolib.gpm import gpm_curator
+```
+
+Please see the `examples/` folder for some example scripts and sample notebooks.
 
 ## Notes
 
