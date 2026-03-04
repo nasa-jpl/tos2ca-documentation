@@ -10,7 +10,7 @@ This python library contains examples of how build images with the [TOS2CA Anoma
 
 ## Requirements
 
-- Will need an [NASA Earthdata login](https://urs.earthdata.nasa.gov/) to use any tools DAAC tools/applications (and have credentials in a `.netrc` file)
+- Will need an [NASA Earthdata login](https://urs.earthdata.nasa.gov/) to use any tools DAAC tools/applications (and have credentials in a `.netrc` file -- see template in this repo)
 - Should have access to the `us-west-2` AWS region to access any NASA DAAC data over S3
 - Access to additional AWS services required by the `tos2ca-anomaly-detection` repo
 
