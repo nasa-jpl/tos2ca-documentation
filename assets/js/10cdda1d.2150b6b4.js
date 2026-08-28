@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkusers_bwknosp_code_tos_2_ca_docs||=[]).push([[2411],{1613(o){o.exports=JSON.parse('{"metadata":{"permalink":"/tos2ca-documentation/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":0,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
