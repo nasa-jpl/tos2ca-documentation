@@ -1,6 +1,6 @@
 # Documentation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17664955.svg)](https://doi.org/10.5281/zenodo.17664955)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22149467.svg)](https://doi.org/10.5281/zenodo.22149467)
 
 <img width="1464" height="908" alt="Screenshot 2025-07-31 at 1 53 04 PM" src="https://github.com/user-attachments/assets/2417da33-c8ad-494a-8886-0fe3e68dbd95" />
 
